@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  position: relative;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  font-size: calc(10px + 2vmin);
+  color: rgb(75, 75, 75);
+}
+
+.App-header::before {
+  position: absolute;
+  top: 0; left: 0;
+  height: 100%; width: 100%;
+  content: '';
+  background: url('./assets/images/bg.png');
+  filter: brightness(80%);
+}
+
+.App-link {
+  color: #61dafb;
+}

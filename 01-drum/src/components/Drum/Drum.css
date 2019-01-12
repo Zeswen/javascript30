@@ -1,0 +1,38 @@
+.Drum-container {
+    position: relative;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+    height: 350px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.4);
+    background: white;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+}
+
+.Drum-text {
+    font-weight: bold;
+}
+
+.Drum-button {
+    height: 50px;
+    border: none;
+    outline: none;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.6);
+    background: transparent;
+    color: #61dafb;
+    font-size: 24px;
+    transition: background 0.15s ease-out, box-shadow 0.15s ease-out;
+}
+
+.Drum-button:hover {
+    cursor: pointer;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.4);
+    transition: background 0.15s ease-in, box-shadow 0.15s ease-in;
+}
+
+.Drum-button:active {
+    box-shadow:  0 -2px 10px rgba(0, 0, 0, 0.6);
+}
